@@ -1,6 +1,14 @@
+#!/usr/bin/python3
+
 '''
+Written by Bianca Power for CSB2019
+
 A flask server for presenting pokemon color, species and names from the pokemon api
+
+Demonstration of the Pokemon API using Flask.
+Purpose: Get list of pokemon by colour
 '''
+
 from flask import Flask
 import requests
 APP = Flask(__name__)
